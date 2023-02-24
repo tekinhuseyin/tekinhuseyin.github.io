@@ -1,0 +1,1 @@
+# mypagerepobu repo github page olarak kullanilacaktir

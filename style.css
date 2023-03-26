@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(152, 235, 238);
+}
+
+h1 {
+    color: rgb(238, 57, 57);
+    margin-left: 20px;
+}
+
+.links {
+    display: inline-block;
+    font-size: larger;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 15px;
+    list-style: decimal;
+}
+
+a:hover {
+    color: white;
+}

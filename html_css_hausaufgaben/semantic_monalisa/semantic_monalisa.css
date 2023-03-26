@@ -1,0 +1,66 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+
+.container{
+    width: 800px;
+    height: 700px;
+    text-align: center;
+
+    /* background-attachment: fixed; */
+    /* background-size: 100%; */
+}
+
+header{
+    background-color: red;
+    color: white;
+    width: 750px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav{
+    background-color: blue;
+    color: white;
+    width: 750px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+aside{
+    border: solid 5px red;
+    border-radius: 5%;
+    background-color: yellow;
+    text-align: center;
+    width: 180px;
+    height: 500px;
+    float: left;
+    /* margin-left: 0px; */
+    padding-top: 20px;
+}
+
+main{
+    background-image: url("../../class-notes/assets/art-g75ad53412_1920.jpg");
+    background-size: cover;
+    width: 520px;
+    height: 489px;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+footer{
+    background-color: dimgrey;
+    color: white;
+    width: 750px;
+    height: 40px;
+    margin-top:  529px;
+    text-align: center;
+    padding-top: 20px;
+}

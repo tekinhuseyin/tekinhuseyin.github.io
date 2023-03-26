@@ -1,0 +1,23 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 700px;
+    height: 2000px;
+    background-color: lightcyan;
+}
+.box{
+    display: inline-block;
+}
+h3{
+    display: inline-block;
+    background-color: gray;
+    width: 49%;
+    height: 25px;
+}
+.box2{
+    display: inline-block;
+    background-color: gray;
+    width: 49%;
+    height: 25px;
+}

@@ -1,0 +1,33 @@
+.all{
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+    /* background-color: orange; */
+}
+
+h2{
+    display: inline-block;
+    background-color: rgb(68, 67, 67);
+    color: #fff;
+    padding: 10px 40px;
+    margin-bottom: -22px;
+    border: 2px solid rgb(68, 67, 67);
+    border-bottom: none;
+}
+
+li{
+    padding-left: 10px;
+}
+
+ul{
+    display: none;
+    padding-left: 25px;
+    margin-top: 11px;
+    width: 150px;
+    border: 2px solid rgb(68, 67, 67);
+    font-size: 24px
+}
+
+nav:hover .menü{
+    display: block;
+}

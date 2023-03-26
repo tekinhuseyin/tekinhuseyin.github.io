@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Netflix_subscription_form.css">
+</head>
+<body>
+    <div class="alles_umfassend">
+        <div>
+            <h1>Net<span>Flix</span></h1>
+            <p>Thank you for signing up at Netflix. Tell us more about your self</p>
+        </div>
+        <div class="main">
+
+            <form action="netflix_result.html">
+
+
+            <label for="Name">Name</label> <br>
+            <input class="inputt"  type="text" placeholder="Enter your name"><br> <br>
+
+            <label for="Age">Age</label> <br>
+            <input class="inputt"  type="text" placeholder="Age"><br><br>
+
+            <label for="Age">Email</label> <br>
+            <input class="inputt"  type="text" placeholder="Enter your Email"><br><br>
+
+            <label for="content">Content type</label> <br>
+            <select name="Content" id="content" value="Content type">
+                <optgroup>
+            <option value="Movies" name="Content">Movies</option>
+            <option value="Series" name="Content">Series</option>
+            <option value="Doku" name="Content">Documentary </option>
+                </optgroup>
+            </select> <br><br>
+
+            <label for="movietype">Movie Type</label><br>
+            <input id="mtype" type="checkbox" name="Movietype" value="Comedy">
+            <label for="mtype" >Comedy</label><br>
+            
+            
+            <input type="checkbox" name="Movietype" value="Action">
+            <label for="mtype" >Action</label><br>
+
+            
+            <input type="checkbox" name="Movietype" value="Romance">
+            <label for="mtype" >Romance</label><br><br>
+            
+            <label for="gender">Gender</label><br>
+
+            <input id="gender" type="radio" name="gender" value="Male">
+            <label for="gender">Male</label><br>
+
+            <input type="radio" name="gender" value="female">
+            <label for="gender">Female</label><br>
+
+            <input type="radio" name="gender" value="Other">
+            <label for="gender">Other</label><br><br>
+
+
+            <label for="Feed back">Feed back</label><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="4" placeholder="Any Comment"></textarea> <br><br>
+
+            <label for="Submit"></label>
+            <button id="button" type="submit">Submit</button>
+
+            </form>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>

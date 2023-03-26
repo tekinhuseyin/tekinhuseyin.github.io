@@ -1,0 +1,33 @@
+* {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#select {
+    width: 150px;
+}
+
+p {
+    font-size: x-large;
+}
+
+#submit {
+    display: flex;
+    margin-left: 190px;
+    margin-top: -25px;
+}
+
+.name{
+    height: 20px;
+    width: 180px;
+}
+#comment{
+    width: 165px;
+}
+

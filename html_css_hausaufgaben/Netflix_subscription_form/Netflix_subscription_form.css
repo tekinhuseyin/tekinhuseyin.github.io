@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC:regular);
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:regular,italic);
+
+body{
+    background-image: url(background_image.jpg);
+    color: white;
+}
+
+.alles_umfassend{
+    background-color: rgba(0, 0, 0, 0.495);
+    height: 100%;
+    width: 90%;
+    margin: auto;
+
+}
+
+.main{
+    background-color: rgba(5, 5, 5, 0.815);
+    width: 500px;
+    height: 80%;
+    margin: auto;
+}
+
+span{
+    color: red;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Bowlby One SC";
+    font-size: 50px;
+    letter-spacing: 5px;
+
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-family: "Sorts Mill Goudy";
+    margin-top: -20px;
+    margin-bottom: -15px;
+
+}
+
+form {
+    margin: 30px;
+    padding-top: 30px;
+    margin-left: 45px;
+}
+
+.inputt{
+    width: 95%;
+    height: 50px;
+    margin-top: 8px;
+}
+
+#content{
+    width: 90%;
+    height: 30px;
+    margin-top: 8px;
+}
+
+#feedback{
+    width: 370px;
+    height: 100px;
+    margin-top: 8px;
+    
+}
+
+#mtype{
+    margin-top: 10px;
+}
+
+#gender {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+

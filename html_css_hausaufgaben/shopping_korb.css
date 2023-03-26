@@ -1,0 +1,133 @@
+.conteiner {
+    width: 90%;
+    margin: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 100%;
+    height: 400px;
+    
+}
+
+tr{
+    border: solid 1px;
+    background-color: thistle;
+}
+th{
+    background-color: rgb(61, 61, 63);
+    color: white;
+    height: 50px;
+
+}
+#ödeme{
+    background-color: rgb(61, 61, 63);
+    color: white;
+    text-align: right;
+    height: 50px;
+    
+}
+tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+tr:nth-child(even){
+    background-color: rgb(206, 206, 206);
+}
+.buton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sepet{
+    color: black;
+    font-size: 25px;
+}
+
+button{
+    background-color: rgb(250, 148, 64);
+    width: 230px ;
+    height: 60px;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 23%;
+}
+
+
+    
+}
+
+.fa-cart-shopping{
+    font-size: 150px;
+        color: black;
+}
+
+.fa-regular {
+    font-size: 30px;
+    color: black;
+
+}
+
+td:nth-child(3) {
+    text-align: center;
+    width: 85px;
+}
+
+th:nth-child(1){
+    
+    text-align: left;
+    padding: 5px;
+    width: 130px;
+}
+
+th:nth-child(2){
+
+        text-align: left;
+        padding: 5px;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+
+    padding: 5px;
+}
+
+
+th:nth-child(4), th:nth-child(5){
+
+    text-align: right;
+    padding: 5px;
+    /* margin-left: -10px; */
+    width: 130px;
+}
+
+td:nth-child(4),
+td:nth-child(5) {
+
+    text-align: right;
+    padding: 5px;
+    /* margin-left: -10px; */
+}
+
+td:nth-child(6){
+
+    text-align: center;
+    font-size: 25px;
+    margin-top: 12px;
+
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem
+    
+}
+
+
+#square{
+    margin-right: 10px;
+}
+#trash-can{
+    margin: 10px;
+}

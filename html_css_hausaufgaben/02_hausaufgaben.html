@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #ilce{
+            width: 186px;
+            height: 26px;
+            border: 1.5px solid cornflowerblue;
+        }
+
+        input{
+            width: 180px;
+            height: 20px;
+            border: 1.5px solid cornflowerblue;
+        }
+
+        #cinsiyet{
+            width: 15px;            
+            
+        }
+
+        .Hobiler{
+         width: auto;
+         height: auto;
+         border: 1.6px solid rgb(116, 116, 226);
+         margin-top: 10px;
+        }
+
+        #dosyasec{
+            width: 132px;
+            height: 25px;
+        }
+
+        #button{
+            width: 60px;
+            height: 25px;
+            margin-left: -10px;
+            color: white;
+            background-color: rgb(139, 143, 143);
+            border: 1.6px solid rgb(116, 116, 226);
+            
+
+        }
+        #textarea{
+            height:90px;
+        }
+        .bosluk{
+            width: 140px;
+        }
+        #kayit{
+            width: 100px;
+            height: 40px;
+            background-color: rgb(161, 165, 165);
+        }
+        #date{
+            width: 130px;
+        }
+
+        table{
+            width: 800px; 
+            height: 350px; 
+            margin: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+
+        /* tr{
+            height: 10px;
+        } */
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+
+    <table>
+        
+        
+    <tr>
+        <td style="width:150px;">Adi</td>
+        <td> <input type="text"></td>
+        <td class="bosluk" ></td>
+        <td style="width: 150px;">Hobiler</td>
+        <td rowspan="2"> <input type="checkbox" class="Hobiler"> 
+             <label for="">Futbol</label> <br>
+             
+
+             <input type="checkbox" class="Hobiler"> 
+             <label for="">Voleybol</label> <br>
+             
+
+             <input type="checkbox" class="Hobiler"> 
+             <label for="">Basketbol</label>
+        </td>
+        
+        
+    </tr>
+        
+     <tr>
+        <td>Soyadi</td>
+        <td> <input type="text"> </td>
+        <td class="bosluk" ></td>
+        <td></td>
+        
+        
+    </tr>
+
+    <tr>
+        <td>Cinsiyet</td>
+        <td> 
+    <input id="cinsiyet" name="cinsiyet" value="Bay" type="radio">
+    <label for="Bay"  >Bay</label>
+
+    
+    <input id="cinsiyet" name="cinsiyet" value="Bayan" type="radio">
+    <label for="Bayan">Bayan</label>
+        </td>
+        <td class="bosluk" ></td>
+        <td>Profil Fotografi</td>
+        <td><input id="dosyasec" type="search" placeholder="Dosya seciniz" name="search"> 
+            <button id="button" type="button">Browse</button></td> 
+        
+    </tr>
+
+    <tr>
+        <td>Ilce</td>
+        <td>
+            <label for=""></label>
+            <select name="" id="ilce">
+        </td>
+        <td class="bosluk" ></td>
+        <td>Dogum Tarihi</td>
+        <td> <input id="date" type="date"></td>
+        
+        
+    </tr>
+
+    <tr>
+        <td>Eposta</td>
+        <td> <input type="text"> </td>
+        <td class="bosluk" ></td>
+        <td >Adres</td>
+        <td rowspan="2" ><input id="textarea" type="text"></td>
+        
+        
+    </tr>
+
+    <tr>
+        <td>Kisisel site</td>
+        <td> <input type="text"> </td>
+        <td class="bosluk" ></td>
+        <td></td>
+        
+        
+    </tr>
+
+    <tr>
+        <td>Telefon</td>
+        <td> <input type="text"> </td>
+        <td class="bosluk" ></td>
+        <td></td>
+        <td> <input id="kayit" type="button" value="Kayit ol"> </td>
+        
+        
+    </tr>
+     
+    </table>
+
+
+
+</body>
+</html>

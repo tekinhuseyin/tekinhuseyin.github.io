@@ -1,23 +1,100 @@
-.container{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 700px;
-    height: 2000px;
-    background-color: lightcyan;
 }
-.box{
+.navbar{
+    position: sticky;
+    top: 0;
+    outline: 2px solid white;
+}
+
+.container{
+    margin: 20px;
+    background-color: rgb(214, 216, 216);
+    width: 800px;
+    height: 1500px;
+    outline: 2px solid white;
+}
+
+.box1{
     display: inline-block;
+    background-color: rgb(66, 66, 66);
+    width: 398px;
+    height: 34px;
+    padding-top: 10px;
+    text-align: right;
+    font-weight: 800;
+    font-size: 20px;
+    padding-right: 5px;
+    outline: 2px solid white;
 }
 h3{
     display: inline-block;
-    background-color: gray;
-    width: 49%;
-    height: 25px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    width: 398px;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    outline: 2px solid white;
 }
+
+.login{
+    color: white;
+    text-decoration: none;
+}
+
 .box2{
     display: inline-block;
     background-color: gray;
-    width: 49%;
-    height: 25px;
+    color: white;
+    width: 398px;
+    height: 90px;
+    padding-left: 5px;
+    padding-top:20px;
+    outline: 2px solid white;
+
+}
+
+p{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: 8px;
+}
+
+.box3{
+    display: inline-block;
+    background-color: gray;
+    width: 398px;
+    height: 90px;
+    padding-top: 49px;
+    text-decoration: none;
+    text-align: right;
+    outline: 2px solid white;
+
+}
+
+.home{
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+.contact{
+ padding-right: 10px;
+}
+img{
+    position: fixed;
+    bottom: 50px;
+    right: 1100px;
 }

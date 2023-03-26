@@ -1,1 +1,1 @@
-# mypagerepobu repo github page olarak kullanilacaktir
+# mypagerepo bu repo github page olarak kullanilacaktir

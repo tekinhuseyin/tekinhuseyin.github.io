@@ -1,5 +1,6 @@
 body {
     background-color: rgb(241, 219, 145);
+    padding-left: 30px;
 }
 
 h1 {
@@ -21,13 +22,13 @@ a {
     font-size: 25px;
 }
 
-li {
+li{
     margin-bottom: 15px;
     list-style: decimal;
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
-
+    text-decoration: none;
 }
 
 a:hover {

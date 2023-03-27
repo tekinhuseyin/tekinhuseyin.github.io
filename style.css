@@ -1,19 +1,18 @@
 body {
     background-color: rgb(241, 219, 145);
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 h1 {
     color: rgb(238, 57, 57);
     text-align: center;
     font-size: 40px;
-
 }
 
-.links {
+/* .links {
     display: inline-block;
     font-size: larger;
-}
+} */
 
 a {
     display: inline-block;

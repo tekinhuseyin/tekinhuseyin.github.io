@@ -4,7 +4,9 @@ body {
 
 h1 {
     color: rgb(238, 57, 57);
-    margin-left: 20px;
+    text-align: center;
+    font-size: 40px;
+
 }
 
 .links {
@@ -15,14 +17,19 @@ h1 {
 a {
     display: inline-block;
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 li {
     margin-bottom: 15px;
     list-style: decimal;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+
 }
 
 a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }

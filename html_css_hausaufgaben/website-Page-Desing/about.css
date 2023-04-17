@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 87, 104);
+    color: white;
+    padding-top: 15px;
+    border-bottom: solid 2px rgb(228, 31, 228);
+    list-style: none;
+}
+
+a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+}
+
+.left {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.right {
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+
+.main2 {
+    background-color: rgb(65, 87, 104);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: -10px;
+}
+
+input {
+    height: 40px;
+    padding-left: 5px;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+}
+
+main{
+    /* display: flex;
+    justify-content: space-between;
+    margin: 20px; */
+}
+
+.AboutUs{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* display: flex; */
+    /* position: relative; */
+    display: block;
+
+    
+
+}
+
+.AboutUs p{
+        margin-top: 15px;
+        
+        display: block;        
+        /* position: relative; */
+
+}
+
+
+
+.bg1{
+    background-color: rgb(65, 87, 104);
+    color: white;
+    margin-top:  20px;
+    margin-left: 50px;
+    height: 200px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* display: flex; */
+    /* position: relative; */
+    display: block;
+}
+
+.bg2{
+    background-color: rgb(65, 87, 104);
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    display: flex;
+    position:static;
+
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+
+
+footer {
+    background-color: rgb(65, 87, 104);
+    text-align: center;
+    padding: 5px;
+    margin-top: 250px;
+    border-bottom: solid 2px rgb(228, 31, 228);
+}
+
+.Copyright {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.clarusway_logo {
+    padding-bottom: 5px;
+}

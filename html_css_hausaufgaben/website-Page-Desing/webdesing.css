@@ -10,36 +10,102 @@ header{
         align-items: center;
         background-color: rgb(65, 87, 104);
         color: white;
-        padding-top: 30px;
+        padding-top: 15px;
         border-bottom: solid 2px rgb(228, 31, 228);
         list-style: none;
 }
 
 a{
-    padding: 10px;
+    padding-left: 15px;
     text-decoration: none;
     color: white;
+    padding-top: 15px;
 }
 
 .left{
     padding-left: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     
 }
 
 .right{
     display: flex;
     padding-right: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
-.main{
+.mainfoto{
     background-image: url(./img/showcase.jpg);
-    height: 400px;
     background-size: cover;
     text-align: center;
-    padding: 50px;
+    padding: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    /* background-size: 1200px; */
+    background-position: center;
+}
+
+.main h1{
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.main2{
+    background-color: rgb(65, 87, 104);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: -10px;
+}
+
+input{
+    height: 40px;
+    padding-left: 5px;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color:red;
+    font-size: 15px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    /* align-items: center; */
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.logo p{
+    padding: 30px;
+}
+
+footer{
+    background-color: rgb(65, 87, 104);
+    text-align: center;
+    padding: 5px;
+    margin-top: -10px;
+    border-bottom: solid 2px rgb(228, 31, 228);
+}
+
+.Copyright{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.clarusway_logo{
+    padding-bottom: 5px;
 }

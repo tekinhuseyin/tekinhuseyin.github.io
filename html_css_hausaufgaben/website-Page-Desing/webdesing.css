@@ -16,9 +16,10 @@ header{
 }
 
 a{
-    padding-left: 15px;
+    /* padding-left: 15px; */
     text-decoration: none;
     color: white;
+    padding-left: 20px;
     padding-top: 15px;
 }
 
@@ -33,18 +34,20 @@ a{
 .right{
     display: flex;
     padding-right: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight:500;
 }
 
 .mainfoto{
     background-image: url(./img/showcase.jpg);
     background-size: cover;
     text-align: center;
-    padding: 180px;
+    height: 360px;
+    /* padding: 180px; */
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    width: 100%;
 
     /* background-size: 1200px; */
     background-position: center;
@@ -64,6 +67,7 @@ a{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: -10px;
+    width: 100%;
 }
 
 input{
@@ -99,6 +103,7 @@ footer{
     padding: 5px;
     margin-top: -10px;
     border-bottom: solid 2px rgb(228, 31, 228);
+    width: 100%;
 }
 
 .Copyright{
@@ -108,4 +113,147 @@ footer{
 
 .clarusway_logo{
     padding-bottom: 5px;
+}
+
+
+
+
+/*! ##################ABOUT########################## */
+
+
+
+
+.AboutUs {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* display: flex; */
+    /* position: relative; */
+    display: block;
+
+
+
+}
+
+.AboutUs p {
+    margin-top: 15px;
+
+    display: block;
+    /* position: relative; */
+
+}
+
+
+
+.bg1 {
+    background-color: rgb(65, 87, 104);
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 200px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* display: flex; */
+    /* position: relative; */
+    display: block;
+}
+
+.bg2 {
+    background-color: rgb(65, 87, 104);
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    display: flex;
+    position: static;
+
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+
+
+
+/*! **************services**************** */
+
+
+main {
+    /* margin: 20px; */
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.main-left {
+    width: 70%;
+
+}
+
+.design {
+    background-color: gainsboro;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.design h3 {
+    margin-bottom: 15px;
+}
+
+.design p {
+    margin-bottom: 15px;
+}
+
+
+
+
+.get {
+    background-color: rgb(65, 87, 104);
+    margin: 30px;
+    /* padding: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    width: 25%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.name input {
+    width: 90%;
+}
+
+.message textarea {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.email input {
+    width: 90%;
+}
+
+
+#message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 10px;
+
 }

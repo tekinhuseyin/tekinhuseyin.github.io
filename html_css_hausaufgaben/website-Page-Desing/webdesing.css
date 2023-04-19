@@ -10,22 +10,20 @@ header{
         align-items: center;
         background-color: rgb(65, 87, 104);
         color: white;
-        padding-top: 15px;
+        padding-top: 30px;
         border-bottom: solid 2px rgb(228, 31, 228);
         list-style: none;
 }
 
 a{
-    /* padding-left: 15px; */
     text-decoration: none;
     color: white;
     padding-left: 20px;
-    padding-top: 15px;
 }
 
 .left{
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     
@@ -43,36 +41,39 @@ a{
     background-image: url(./img/showcase.jpg);
     background-size: cover;
     text-align: center;
-    height: 360px;
-    /* padding: 180px; */
+    height: 380px;
+    padding: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     width: 100%;
-
-    /* background-size: 1200px; */
+    
+    margin-top: -20px;
     background-position: center;
 }
 
-.main h1{
+h1{
     font-weight: 1000;
-    font-size: 40px;
+    font-size: 50px;
+    padding: 20px;
 }
 
 .main2{
     background-color: rgb(65, 87, 104);
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 20px;
+    padding-top: 30px;
     color: white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: -10px;
+    /* padding-top: -10px; */
     width: 100%;
 }
 
 input{
     height: 40px;
-    padding-left: 5px;
+    padding-left: 10px;
+    width: 200px;
 }
 
 button{
@@ -92,27 +93,35 @@ button{
     margin-right: 200px;
     text-align: center;
 }
+.logo img{
+        padding-bottom: 20px;
+}
 
 .logo p{
-    padding: 30px;
+    padding: 20px;
+}
+
+.logo h3{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
     background-color: rgb(65, 87, 104);
     text-align: center;
     padding: 5px;
-    margin-top: -10px;
+    margin-top: -4px;
     border-bottom: solid 2px rgb(228, 31, 228);
     width: 100%;
 }
 
 .Copyright{
     color: white;
-    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .clarusway_logo{
-    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 
@@ -122,15 +131,25 @@ footer{
 
 
 
+.AboutUs-left{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%
+    
+}
 
 .AboutUs {
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 
     /* display: flex; */
     /* position: relative; */
     display: block;
+    margin-left: 50px;
+    
 
 
 
@@ -141,6 +160,8 @@ footer{
 
     display: block;
     /* position: relative; */
+    font-size: 19px;
+    line-height: 1.5;
 
 }
 
@@ -149,36 +170,43 @@ footer{
 .bg1 {
     background-color: rgb(65, 87, 104);
     color: white;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 50px;
     height: 200px;
-    padding: 20px;
-    font-size: 16px;
+    padding: 25px;
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 
-    /* display: flex; */
-    /* position: relative; */
     display: block;
 }
 
 .bg2 {
     background-color: rgb(65, 87, 104);
-    margin-top: 20px;
-    margin-left: 50px;
-    font-size: 16px;
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    padding: 20px;
-    display: flex;
-    position: static;
+    padding: 25px;
 
-    display: inline-block;
-    justify-content: space-between;
-    margin: 20px;
-
+    margin: 30px;
+    width: 30%;
+    margin-right: 50px;
+    line-height: 1.5;
+    height: 410px;
 }
 
+.bg2 h3{
+        font-size: 25px;
+}
 
+.footer-about {
+    background-color: rgb(65, 87, 104);
+    text-align: center;
+    padding: 5px;
+    margin-top: 184px;
+    border-bottom: solid 2px rgb(228, 31, 228);
+    width: 100%
+}
 
 
 /*! **************services**************** */
@@ -193,6 +221,7 @@ main {
     justify-content: space-between;
 
 }
+
 
 .main-left {
     width: 70%;
@@ -221,39 +250,59 @@ main {
 
 .get {
     background-color: rgb(65, 87, 104);
-    margin: 30px;
+    margin-right: 25px;
     /* padding: 20px; */
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     display: inline-block;
-    width: 25%;
-    padding-left: 20px;
-    padding-top: 20px;
+    width: 25%;    
+    padding: 20px;
+
 }
 
 .name {
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 .name input {
     width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+}
+
+.message{
+    /* padding-top: 15px; */
+    /* margin-top: -15px; */
 }
 
 .message textarea {
     margin-top: 15px;
     margin-bottom: 15px;
     width: 90%;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 2px;
 }
 
 .email input {
     width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-bottom: 10px;
 }
 
 
-#message {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    padding: 10px;
-
+.services-footer{
+            background-color: rgb(65, 87, 104);
+            text-align: center;
+            padding: 5px;
+            margin-top: 113px;
+            border-bottom: solid 2px rgb(228, 31, 228);
+            width: 100%
+        
 }
